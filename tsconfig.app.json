@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "skipLibCheck": true,
+        "types": ["vite/client", "./worker-configuration.d.ts"],
+        "jsx": "react-jsx",
+        "jsxImportSource": "hono/jsx",
+        // Newcomer friendly
+        "strict": false,
+        "isolatedModules": true,
+        "noImplicitAny": false
+    },
+    "extends": "./tsconfig.base.json",
+    "include": ["src", "scripts/server-node.ts"]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "onewave-hackathon-backend",
+    "main": "./src/index.ts",
+    "compatibility_date": "2024-12-01",
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_name": "asdfasdfasdf",
+            "database_id": "8d11b163-8f78-4d73-8864-c859f06b782d"
+        }
+    ],
+    "vars": {
+        "GOOGLE_CLIENT_ID": "567343588132-isel4dr77igv0ifp21r08h0tonlukqnb.apps.googleusercontent.com",
+        "GOOGLE_CLIENT_SECRET": "",
+        "OAUTH_REDIRECT_URI": "https://onewave-hackathon-backend.condev.workers.dev/v1/auth/google/callback",
+        "FRONTEND_REDIRECT_URI": "https://2026-one-wave-t9-hum.vercel.app/auth/callback",
+        "JWT_SECRET": "",
+        "SECRET_GEMINI_API_KEY": "AI",
+        "SECRET_GENIUS_API_KEY": "R8"
+    },
+    "observability": {
+        "logs": {
+            "enabled": true,
+            "invocation_logs": true
+        }
+    }
+}
